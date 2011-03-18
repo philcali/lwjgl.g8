@@ -1,4 +1,4 @@
-package com.github.philcali
+package $package$ 
 
 // What GL version you plan on using
 import org.lwjgl.opengl.GL11._
@@ -9,7 +9,7 @@ import org.lwjgl.opengl.{
 import org.lwjgl.input.Keyboard
 import Keyboard._
 
-object Game extends Application {
+object $game_class$ extends Application {
   val displayMode = new DisplayMode(640, 480)
   Display.setTitle("LWJGL Test")
   Display.setDisplayMode(displayMode)
