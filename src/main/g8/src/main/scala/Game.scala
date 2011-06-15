@@ -16,7 +16,7 @@ object $game_class$ extends App {
   Display.create()
   fader(0f) 
   Display.destroy()
-  exit(0)
+  sys.exit(0)
 
   def fader(color: Float, d: Int = -1) {
     val mult = if(color > 1f) 1 else if(color < 0f) -1 else d
