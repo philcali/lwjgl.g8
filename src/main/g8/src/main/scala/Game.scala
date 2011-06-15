@@ -9,7 +9,7 @@ import org.lwjgl.opengl.{
 import org.lwjgl.input.Keyboard
 import Keyboard._
 
-object $game_class$ extends Application {
+object $game_class$ extends App {
   val displayMode = new DisplayMode(640, 480)
   Display.setTitle("LWJGL Test")
   Display.setDisplayMode(displayMode)
