@@ -4,4 +4,4 @@ version := "$version$"
 
 scalaVersion := "$scala_version$"
 
-seq( LWJGLProject.engineSettings: _*)
+seq(lwjglSettings: _*)
